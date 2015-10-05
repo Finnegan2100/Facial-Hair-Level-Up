@@ -1,0 +1,43 @@
+
+body {
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    #pause {
+        
+     float: left;
+     margin-left: 20%;
+     margin-top: 1%;    
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    #canvas {
+        display: block;
+        padding: 0;
+        margin-left: 30%;
+    }
+
+    #particleCanvas {
+        display: block;
+        padding: 0;
+        margin-left: 30%;
+    }
+    @media(max-width:1200px) {
+        .container {
+            margin: 0 50px;
+        }
+        #canvas, #particleCanvas {
+            width: 100%;
+            height: auto;
+         
+        }
+    }
