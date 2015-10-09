@@ -61,7 +61,7 @@ width: 66,
 height: 119
 };
 var noseImage = new Image();
-noseImage.src = "newAssets/nose2.png";
+noseImage.src = "newAssets/nose.png";
 
 var head = {
 x: 105,
